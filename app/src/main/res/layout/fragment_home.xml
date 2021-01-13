@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".fragments.HomeFragment">
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:id="@+id/txtHome"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:fontFamily="roboto"
+        app:textWeight="light"
+        app:textStyle="normal"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listaMensagens"
+        android:layout_below="@+id/txtHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scrollbars="vertical" />
+
+
+</RelativeLayout>
+

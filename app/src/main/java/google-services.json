@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1036091176653",
+    "firebase_url": "https://comejaempresas.firebaseio.com",
+    "project_id": "comejaempresas",
+    "storage_bucket": "comejaempresas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036091176653:android:df4b933a4fc387a2",
+        "android_client_info": {
+          "package_name": "br.com.comeja.comejaempresas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036091176653-e9a8t0i7q2tar85stmemf8n4tqo2mc2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.comeja.comejaempresas",
+            "certificate_hash": "A51A02CBC51A2BDAA763B360FE0A54F90F118549"
+          }
+        },
+        {
+          "client_id": "1036091176653-3h0m910d1m9nn7gfsmghknop9ifnjdnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsbpJD9suiFKMw79GLToxI2LPRs9uVdZU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036091176653-3h0m910d1m9nn7gfsmghknop9ifnjdnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

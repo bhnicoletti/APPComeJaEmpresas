@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".fragments.VendaFragment">
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/md_white_1000"
+            android:id="@+id/txtIdVenda"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@color/md_white_1000"
+            android:id="@+id/txtTelefone"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/md_white_1000"
+            android:id="@+id/txtDataVenda"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/md_white_1000"
+            android:id="@+id/txtstatusVenda"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/md_white_1000"
+            android:id="@+id/txtvlrVenda"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/md_white_1000"
+            android:id="@+id/txtFormaPagamento"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@color/md_white_1000"
+            android:id="@+id/txtEnderecoEntrega"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listaProdutos"
+        android:layout_below="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scrollbars="vertical" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAceitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:fabSize="normal"
+        app:backgroundTint="@android:color/holo_orange_light"
+        android:layout_margin="16dp"
+        android:src="@drawable/check"
+        app:layout_anchor="@id/listaProdutos"
+        app:layout_anchorGravity="bottom|right|end"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabFinalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:fabSize="normal"
+        app:backgroundTint="@android:color/holo_orange_light"
+        android:layout_margin="16dp"
+        android:src="@drawable/send"
+        app:layout_anchor="@id/listaProdutos"
+        app:layout_anchorGravity="bottom|center|end"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        app:fabSize="normal"
+        app:backgroundTint="@android:color/holo_orange_light"
+        android:layout_margin="16dp"
+        android:src="@drawable/not"
+        app:layout_anchor="@id/listaProdutos"
+        app:layout_anchorGravity="bottom|left|end"/>
+
+
+</RelativeLayout>
+
